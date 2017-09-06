@@ -1,0 +1,44 @@
+.titi{
+        width: 100%;
+        height:800rem;
+        background-color: #68CDD5;
+           }
+  .box{
+  	      height: 5rem;
+  	      padding: 5% 10% 0 5%;
+  	      margin:0 5% 0 5%;
+  	      text-align: center;
+  	      color: white;
+          font-size: 0.7rem;
+  	      }
+  .box1{
+  	   width: 20%;
+  	   padding: 10% 10% 0 10%;
+  	   margin:0 5% 0 5%;
+  	   height: 5rem;
+  	   float: left;
+       text-align: center;
+       color: white;
+          }
+    .box2{
+        float: left;
+        padding-top: 5%;
+        text-align: left;
+        background-color: #68CDD5;
+         }
+    .img-ptt{
+         position: static;
+         width:5.656rem;
+         height: 2.188rem;
+          } 
+    .img-back{
+         position: static;
+         width:1.688rem;
+         height: 1.688rem;
+          }   
+     .img-logo{
+         position: static;
+         width:2.625rem;
+         height: 2.625rem;
+          } 
+  body{font-size:62.5%;}     
