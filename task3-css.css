@@ -20,12 +20,11 @@
        text-align: center;
        color: white;
           }
-    .box2{
+    box2{
         float: left;
-        width: 100%;
-        margin: 5%;
+        padding-top: 5%;
         text-align: left;
-         }
+        }
   body{font-size:62.5%;}     
       
  
