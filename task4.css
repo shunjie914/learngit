@@ -1,0 +1,82 @@
+.body{
+	margin: 0;
+	font-size: 62.5%;
+	width: 100%;
+	height: 500rem;
+	background-color: #F0F0F0;
+}
+header{
+	width:100%;
+	position:fixed;
+	z-index:1;
+	height:3rem;
+	background-color: #5EC0CD;
+      }
+.header-center{
+	position: fixed;
+	left: 20%;
+	right:20%;
+	padding-top:0.6rem;
+	text-align: center;
+	font-size: 1rem;
+	color:white ;
+	font-weight: bold;
+	background-color: #5EC0CD; 
+       }
+.header-left{
+	width: 3rem;
+	float: left;
+	padding:0.8rem;
+	text-align: center;
+	font-size: 0.8rem;
+	color:white ;
+	font-weight: bold;
+      }
+.header-right {
+	float: right;
+	width: 3rem;
+	padding: 0.8rem;
+	font-size: 0.8rem;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+   }
+ .user{
+	 width: 70%;
+	 position: absolute;
+	 left:5rem ;
+	 height:2.4rem ;
+	 float: left;
+	 outline:none;
+	 border:none;
+ }
+ .button{
+	  width: 100%;
+	  height:3rem;
+	  text-align: center;
+	  color: white;
+	  outline:none;
+	  font-size:1.2rem ;
+	  font-weight: bold;
+	  background-color: #5EC0CD;
+  }
+  .input{
+	  height:2.5rem;
+	  margin-top:1rem;
+	  margin-bottom: 1rem;
+	  text-align: center;
+	  background-color: white;
+  }
+   .user-img {
+	   height: 2.1rem;
+	   width: 5rem;
+	   float: left;
+	   padding-top: 0.3rem;
+   }
+    .password-img{
+		float: left;
+		height: 2.1rem;
+		width: 5rem;
+		padding-top: 0.3rem;
+
+	}
