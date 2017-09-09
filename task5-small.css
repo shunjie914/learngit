@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+	width: 100%;
+	height: 700px;
+	font-size: 62.5%;
+}
+header {
+	position: fixed;
+	z-index: 1;
+	height: 45px;
+	width: 100%;
+	background-color: #5EC0CD;
+}
+footer {
+	position: fixed;
+	margin: 0;
+	padding: 10px 10px;
+	bottom: 0;
+	z-index: 1;
+    height: 40px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.titi {
+    position: fixed;
+    top: 10px;
+    left: 40%;
+    right: 40%;
+	text-align: center;
+	height: 40px;
+    width: 5rem;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.button-left {
+	display: inline-block;
+	height: 40px;
+	margin-right: 5px;
+	width: 45%;
+	border-radius: 6px;
+	border-color: #5EC0CD;
+	background-color: #FFFFFF;
+	color: #5EC0CD;
+	font-size: 1rem;
+	font-weight: 900;
+}
+.button-right {
+	height: 40px;
+	display: inline-block;
+	margin: 0 5px;
+	width: 45%;
+	border-radius: 6px;
+	border-color: #5EC0CD ;
+	background-color: #5EC0CD;
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: 900;
+}
+.img-back {
+	padding-top: 5px;
+	margin: 8px;
+	height: 18.5px;
+	width: 15px;
+}
+.img-touxiang {
+	height: 74.5px;
+	width: 74.5px;
+	margin-top: 60px;
+	margin-left: 15px;
+	margin-bottom: -20px;
+}
+.img-zy {
+	margin-right: 2px;
+	margin-bottom: -7px;
+	}
+h1 {
+	padding-left: 5px;
+	padding-bottom: 20px;
+	font-size: .9rem;
+	height: 20px;
+	border-style:none none solid none;
+	border-bottom-color: #E1E5E7;
+}
+.h2 {
+	float: left;
+	font-weight: 900;
+	width: 70px;
+	display: inline-block;
+	font-size: .9rem;
+	text-align: center;
+	height: 70px;
+	padding-top: 5px;
+	padding-left: 4px;
+	border-style: none none solid none;
+	border-bottom-color: #E1E5E7;
+}
+.js {
+ 	padding-top: 5px;
+	 font-weight: 900;
+	 font-size: .9rem;
+	 height: 70px;
+	 width: 75%;
+     float: left;
+	 border-style: none none solid none;
+	 border-bottom-color: #E1E5E7;
+}
+p {
+	   color: #333333;
+	   display: inline-block;
+}
+.jieshao {
+	display: inline-block;
+	width: 100%;
+	height: 160px;
+	font-size: .8rem;
+    font-weight: 900;
+	background-image: url(背景.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.div1 {
+	display: inline-block;
+	height: 30%;
+	width: 120px;
+	margin: 20px;
+	text-align: left;
+}
+
