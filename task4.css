@@ -2,7 +2,7 @@
 	margin: 0;
 	font-size: 62.5%;
 	width: 100%;
-	height: 500rem;
+	height: 100%;
 	background-color: #F0F0F0;
 }
 header{
@@ -79,4 +79,11 @@ header{
 		width: 5rem;
 		padding-top: 0.3rem;
 
+	}
+p{
+		color: #5EC0CD;
+		text-align: right;
+		margin-right: 10px;
+		text-decoration: underline;
+		font-size: 1rem;
 	}
