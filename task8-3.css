@@ -1,0 +1,276 @@
+body {
+    background-color: #F9F9F9;
+}
+div.container {
+    padding: 0;
+}
+header {
+    width:100%;
+    height:auto;
+}
+.logo {
+    margin: 0 4px;
+}
+.hed-left {
+    float: left;
+    margin: 8px 0;
+    width:70%;
+    color: #29B078;
+    font-weight: 900;
+}
+.hed-right {
+    float: right;
+    margin: 8px 0;
+    width: 20%;
+}
+a {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.nav-tabs {
+    position: relative;
+    left: 70%;
+    width: 28%;
+    height: 100%;
+    border-bottom: none;
+}
+.nav-ps {
+    height: 80px;
+    background-color: #29B078;
+}
+.fluid {
+    padding-top: 20px;
+    padding-left: 70%;
+}
+li {
+    margin-top: 30px;
+}
+div.row {
+    width: 100% ;
+    display: inline-block;
+    vertical-align: middle;
+}
+.hr1 {
+    padding: 0 10%;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+.hr2 {
+    padding: 0 10%;
+    height: 100px;
+    background-color: #29B078;
+}
+.jinengs {
+    font-size: 6.5rem;
+    color: rgb(255, 255, 255);
+    line-height: 0.525;
+    -moz-transform: matrix( 0.66031244277974,0,0,0.65896739039857,0,0);
+    -webkit-transform: matrix( 0.66031244277974,0,0,0.65896739039857,0,0);
+    -ms-transform: matrix( 0.66031244277974,0,0,0.65896739039857,0,0);
+    position: absolute;
+    font-family: cursive;
+    bottom: 30px;
+    left: 40px;
+}
+.www_jnshu_com {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    line-height: 2.182;
+    -moz-transform: matrix( 0.66031244277974,0,0,0.65896739039857,0,0);
+    -webkit-transform: matrix( 0.66031244277974,0,0,0.65896739039857,0,0);
+    -ms-transform: matrix( 0.66031244277974,0,0,0.65896739039857,0,0);
+    position: absolute;
+    font-family: cursive;
+    top: 25px;
+    left: 40px;
+}
+.bak {
+    width: 100%;
+    height: 248px;
+    background-image: url(Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: #FFFFFF;
+}
+.fot-div1 {
+    height: 200px;
+    background-color: #26A26F;
+}
+.fot-left,.fot-right {
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+.fot-right {
+    float: right;
+}
+.fot-center {
+    float: left;
+    width: 48%;
+    height: 200px;
+    padding: 0 30px;
+}
+.col-xs-12 {
+    margin: 40px 0;
+    padding: 0;
+    color: #FFFFFF;
+    word-spacing: 10px;
+}
+.col-xs-6 {
+    margin: 6.5px 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+.col-xs-8 {
+    margin: 40px 40% 0 3px;
+    padding: 0;
+    color: #FFFFFF;
+}
+.h1,.h2 {
+    padding: 20px 0;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+.line1 {
+    color: #29B078;
+}
+.mark {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: solid #FF0000 2px;
+}
+.h2 {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #E7E7E7;
+    text-align: center;
+}
+.h3 {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0 15px 38%;
+    margin: 0;
+    color: #6CCAA5;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.potato {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+}
+.h4 {
+    display: inline-block;
+    width: 70%;
+    text-indent: 1.25rem;
+    font-size: 1.25rem;
+    color: #9C9C9C;
+    line-height: 30px;
+    text-align: left;
+}
+.h4-child {
+    width: 100%;
+    padding: 15px 20px;
+}
+.box1,.box2 {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin: 20px 15px 20px 0;
+    background-color: #FFFFFF;
+}
+.box2 {
+    width: 65%;
+    text-align: left;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.active {
+    color: #F2995F;
+}
+@media all and (max-width: 600px) {
+    .hr1, .hr2 {
+        padding: 0 5%;
+    }
+
+    .hed-left {
+        display: none;
+    }
+
+    .hed-right {
+        width: 50%;
+        padding: 0 1%;
+    }
+    .jinengs {
+        position: relative;
+        top: 15px;
+        left: 30px;
+        font-size: 3rem;
+
+    }
+    .www_jnshu_com {
+        position: relative;
+        top: 25px;
+        left: -60px;
+        font-size: 1.3rem;
+    }
+    .box1,.box2 {
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+    .col-xs-2 {
+        display: inline-block;
+        width: auto;
+    }
+    .fot-center,.fot-right,.fot-left {
+        float: none;
+        width: auto;
+    }
+    .fot-left,.fot-right{
+        padding-left: 30px;
+    }
+    .fot-div1 {
+        height: auto;
+    }
+    div.row {
+        padding-left: 20px;
+    }
+    .h2,.h1 {
+        height: 60px;
+
+    }
+    .row {
+        height: 90px;
+    }
+    .bak {
+        background-size: 200%;
+    }
+    div.bak {
+         height: 80px;
+    }
+    .nav-ps {
+        height: auto;
+    }
+    .fluid {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .h2 {
+        text-align: center;
+    }
+    li {
+        text-align: center;
+    }
+
+}
