@@ -1,5 +1,4 @@
 body {
-    font-size: 62.5%;
     background-color: #F9F9F9;
 }
 header{
@@ -10,16 +9,14 @@ header{
     margin: 0 4px;
 }
 .hed-left {
-    float: left;
-    margin: 8px 0;
-    width: 70%;
+    position: absolute;
+    left: 100px;
     color: #29B078;
     font-weight: 900;
 }
 .hed-right {
-    float: right;
-    margin: 8px 0;
-    width:20%;
+    position: absolute;
+    right: 100px;
 }
 a {
     color: #FFFFFF;
@@ -42,16 +39,22 @@ div.row {
 }
 .bak {
     width: 100%;
-    height: 480px;
     background-repeat: no-repeat;
 }
+.left,.right,.item,.act,.bak {
+    height: 100%;
+}
 .nav-ps {
-    height: 80px;
+    height: 88px;
     background-color: #29B078;
 }
 .fluid {
     padding-top: 20px;
     padding-left: 70%;
+}
+ul {
+    position: absolute;
+    right: 85px;
 }
 .jinengs {
     display: inline;
@@ -64,7 +67,7 @@ div.row {
     position: absolute;
     font-family: cursive;
     bottom: 30px;
-    left: 40px;
+    left: 60px;
 }
 .www_jnshu_com {
     display: inline;
@@ -76,8 +79,8 @@ div.row {
     -ms-transform: matrix( 0.66031244277974,0,0,0.65896739039857,0,0);
     position: absolute;
     font-family: cursive;
-    top: 25px;
-    left: 40px;
+    top: 35px;
+    left: 60px;
 }
 .box {
     display: inline-block;
@@ -117,6 +120,7 @@ div.row {
     padding-right: 10px;
 }
 .box1 {
+    height: 100px;
     padding: 10px 0 10px 0;
 }
 .num {
@@ -161,6 +165,7 @@ div.row {
     height: 330px;
     margin: 25px 3% 25px 0;
     padding: 0;
+    box-shadow: 2px 2px 2px 2px #EEEDED;
 }
 .box3-col {
     display: inline-block;
@@ -185,6 +190,17 @@ div.row {
     border-radius: 50%;
     background-color: red;
 }
+.line {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    width: 100%;
+    height: 3px;
+    background-color: #29B078;
+}
+li:hover .line {
+    background-color: #FFFFFF;
+}
 .page {
     width: auto;
     height: 20px;
@@ -192,16 +208,33 @@ div.row {
     margin-bottom: 50px;
 }
 .box4 {
-    width: 20%;
-    height: 136px;
+    width: 18%;
+    height: 130px;
     padding: 0;
+    margin: 0 2px 50px 0;
     background-color: #FFFFFF;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
+h1:hover {
+    box-shadow:0 0 8px 6px #EEEDED;
+}
+h2:hover {
+    box-shadow:0 0 8px 6px #EEEDED;
+}
+h3:hover {
+    box-shadow:0 0 8px 6px #EEEDED;
+}
+h4:hover {
+    box-shadow:0 0 8px 6px #EEEDED;
+}
+h5:hover {
+    box-shadow:0 0 8px 6px #EEEDED;
+}
 .pic1 {
-    background-image: url(alibaba.png);
+    margin-left: 20px;
+    background-image: url(ali.png);
 }
 .pic2 {
     background-image: url(jins.png);
@@ -234,6 +267,7 @@ div.col-xs-2 {
 }
 .fot-right {
     float: right;
+    text-align: right;
 }
 .fot-center {
     float: left;
@@ -253,22 +287,27 @@ div.col-xs-2 {
     color: #FFFFFF;
 }
 .col-xs-8 {
-    margin: 40px 40% 0 3px;
-    padding: 0;
+    width: 100%;
+    margin: 40px 0 0 3px;
+    padding: 0 7px 0 0;
     color: #FFFFFF;
 }
-div.item img {
+div.item img{
     width:100%;
+}
+.img {
+    height: 270px;
+
 }
 div#carousel-example-generic {
     width: 100%;
-    height: 450px;
+    height: 50%;
     margin: 0 auto;
 }
 div.carousel-inner {
-    height: 450px;
+    height: 50%;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 750px) {
     .hr1,.hr2 {
         padding: 0 5%;
     }
@@ -276,33 +315,30 @@ div.carousel-inner {
         display: none;
     }
     .hed-right {
+        right: 6px;
+        text-align: right;
         width: 40%;
-        padding: 0 1%;
+        padding: 0;
      }
     .jinengs {
-        position: relative;
-        top: 15px;
-        left: 30px;
-        font-size: 3rem;
+        position: absolute;
+        top: 12px;
+        left: 8px;
+        height:20px;
+        font-size: 4rem;
 
     }
     .www_jnshu_com {
-        position: relative;
-        top: 25px;
-        left: -60px;
-        font-size: 1.3rem;
-
+        position: absolute;
+        top: 19px;
+        left: 10px;
+        font-size: 1.8rem;
     }
-    .left,.right,.item,.act,.bak {
-         height: 120px;
-     }
-    div#carousel-example-generic {
-        height: 120px;
+    .parent {
+        height: auto;
+        padding-left: 0;
     }
-    div.carousel-inner {
-        height: 120px;
-    }
-     ol {
+    ol {
          display: none;
      }
      .box {
@@ -331,16 +367,52 @@ div.carousel-inner {
          display: none;
      }
      ul {
+         position: static;
          text-align: center;
          font-size: 1.5rem;
+     }
+     .line {
+         display: none;
      }
      .nav-ps {
          height: auto;
      }
      .fluid {
-         padding-left: 0;
-         padding-top: 0;
+        padding: 0;
      }
+     .pic1,.pic2,.pic3,.pic4,.pic5 {
+         background-size: 280px;
+     }
+     .navbar-header {
+         width: 100%;
+     }
+     #example-navbar-collapse {
+         width: 100%;
+         margin: 0;
+     }
+     .go,.go1 {
+         display: none;
+     }
+     .box1 {
+         height: auto;
+     }
+     .h3 {
+         text-align: center;
+     }
+     .num {
+         display: inline;
+     }
+}
+@media (max-width: 1000px) and (min-width: 750px){
+    .box3 {
+        height: 380px;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    .go {
+        bottom: 50px;
+    }
 
 }
 
