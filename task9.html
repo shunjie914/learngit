@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>51表单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery/2.0.0/jquery.min.js"></script>
+    <link href="css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="task9.css">
+    <style>
+        .first {
+            color: #FE7F02;
+            border-top-color: #FE7F02;
+        }
+        .icon-c{
+            background-color: #FE7F02;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="hed">客服热线：010-225-55248</span>
+        <button type="button" class="btn btn-default btn-b btn1">登录</button>
+        <button type="button" class="btn btn-default btn2">注册</button>
+        <div class="body-T">
+            <button type="button" class="btn-default btn-T">首页</button>
+            <button type="button" class="btn-default btn-b btn-T">在线定制</button>
+            <button type="button" class="btn-default btn-T">标准箱</button>
+            <button type="button" class="btn-default btn-T">品质保障</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="flow">
+            <span class="stream first">1.定制纸箱
+            <span class="icon icon-c">1</span></span>
+            <span style="right: 4px" class="stream">2.选择数量
+            <span class="icon">2</span></span>
+            <span style="right: 8px" class="stream">3.上传附件
+            <span class="icon">3</span></span>
+            <span style="right: 12px" class="stream">4.确认下单
+            <span class="icon">4</span></span>
+        </div>
+        <div class="col-xs-12">
+            <span class="color-b">|</span>
+             请您按照以下步骤来定制您的纸箱
+        </div>
+    </div>
+    <div class="container">
+        <form class="form">
+        <div class="label1"><img src="box.png" class="label-pic">选择箱型</div>
+                <div class="label2">
+                    <input type="radio" name="box1"><label class="label-first">对口箱</label>
+                    <input type="radio" name="box2"><label>飞机盒</label>
+                    <input type="radio" name="box3"><label>天地盖</label>
+                    <span class="selBIG se1">
+                        <span class="selHID">
+                            <select class="select">
+                                <option>查看详情</option>
+                                <option>一</option>
+                                <option>二</option>
+                                <option>三</option>
+                            </select>
+                        </span>
+                    </span>
+                </div>
+                <div class="label1"><img src="Ruler.png" class="label-pic">确定尺寸</div>
+                <div class="label2">
+                         <input type="radio" name="size"><label class="label-first">外径</label>
+                         <span class="C-span1">长<input type="text" class="text">mm</span>
+                         <span class="C-span1">宽<input type="text" class="text">mm</span>
+                         <span class="C-span1">高<input type="text" class="text">mm</span>
+                         <br><br>
+                          <input type="radio" name="size"><label>内径</label>
+                         <span class="C-span1">长<input type="text" class="text">mm</span>
+                         <span class="C-span1">宽<input type="text" class="text">mm</span>
+                         <span class="C-span1">高<input type="text" class="text">mm</span>
+                    <span class="selBIG se2">
+                        <span class="selHID">
+                            <select class="select">
+                                <option>查看详情</option>
+                                <option>一</option>
+                                <option>二</option>
+                                <option>三</option>
+                            </select>
+                        </span>
+                    </span>
+                </div>
+                <div class="label1"><img src="Cut.png" class="label-pic">选择材质</div>
+                <div class="label2">
+                    <input type="radio" name="material"><label class="label-first label-ps"> 三层A瓦优质</label>
+                    <input type="radio" name="material"><label class="label-ps"> 三层A瓦优质</label>
+                    <input type="radio" name="material"><label class="label-ps"> 三层A瓦优质</label>
+                    <input type="radio" name="material"><label class="label-ps"> 三层A瓦优质</label>
+                    <input type="radio" name="material"><label class="label-ps"> 三层A瓦优质</label>
+                    <span class="selBIG se3">
+                        <span class="selHID">
+                            <select class="select">
+                                <option>查看详情</option>
+                                <option>一</option>
+                                <option>二</option>
+                                <option>三</option>
+                            </select>
+                        </span>
+                    </span>
+                </div>
+                 <div class="btn-B">
+                    <button type="button" class="btn-next">下一步</button>
+                 </div>
+        </form>
+        </div>
+    <footer>
+        <div class="container">
+            <div class="fot-box">
+                <div class="row">
+                    <div class="col-xs-12">51包装网——纸箱包装首选服务平台</div>
+                </div>
+            </div>
+            <div class="fot-box">
+                <div class="row">
+                    <div class="col-xs-4">关于我们</div>
+                    <div class="col-xs-4">配送流程</div>
+                    <div class="col-xs-4">联系我们</div>
+                    <div class="col-xs-4">下单指南</div>
+                    <div class="col-xs-4">媒体介绍</div>
+                </div>
+            </div>
+            <div class="fot-box">
+                <span class="fot">TEL：400-0000-000</span>
+                <span class="fot">企业QQ：123456789</span>
+                <span class="fot">微信号：XXXXXXXXX</span>
+                <img class="fot-img" src="twocode.png">
+            </div>
+        </div>
+             <div class="fot-B">
+                  <span> 北京五一包装科技有限公司Copyright ©2015 </span>
+                  <span> 51baozhuang.com015   All rights reserved.   京icp备99999999-1 </span>
+             </div>
+</footer>
+<script type="text/javascript">
+    var label=document.getElementsByTagName("label");
+    for(i in label) {
+        label[i].onclick = function (e) {
+            for (j in label) {
+                label[j].className="";
+            }
+            this.className = "check";
+        }
+    }
+</script>
+</body>
+</html>
