@@ -1,0 +1,26 @@
+@import "cssspecial";
+@import "layout";
+@import "cssbase.css";
+@media all and (max-width: 750px){
+  @include box1-sm();
+  @include box3-sm();
+  @include box3_1-sm();
+  @include box3_2-sm();
+  @include jinengs-sm();
+  @include www_jnshu_com-sm();
+  @include box5-sm();
+  @include box4-sm();
+  @include ul1-sm;
+  @include hed-l-sm;
+  @include in-sm;
+  @include logo-sm;
+  @include h-sm;
+  @include button;
+  @include nav-sm;
+}
+@media (min-width: 751px) and (max-width: 1000px){
+  @include box1-md;
+  @include box3-md;
+  @include box4-md;
+  @include h-md;
+}
