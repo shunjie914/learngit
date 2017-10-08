@@ -1,0 +1,156 @@
+$bule: #5FC0CD;
+$bordercolor: #E1E5E7;
+$font-g: #B4B4B4;
+@mixin fot-btn {
+  width: 100%;
+  height: 32px;
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: 33px 31px;
+  border: none;
+  background-color: #F7F9FA;
+}
+img {
+  display: inline-block;
+  margin: 4px;
+  vertical-align: middle;
+}
+h1,h2,h3,h4,p {
+  margin: 0;
+  height: auto;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 0.8rem;
+  font-weight: 100;
+  border-bottom: solid 1px $bordercolor;
+}
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-bottom: 70px;
+  padding-top: 108px;
+  color: $font-g;
+  @at-root {
+    select {
+      width: 32.5%;
+      padding: 10px 0 10px 5px ;
+      color: $font-g;
+      text-align: center;
+      border: none;
+      border-right: solid 1px $bordercolor;
+    }
+    h1 {
+      position: fixed;
+      top: 50px;
+      z-index: 1;
+      background-color: #FFFFFF;
+    }
+    .b-img {
+        width: 4%;
+        max-width: 17px;
+        vertical-align: middle;
+      }
+      .in {
+        width: 10%;
+      }
+      .b-cen {
+        width: 100%;
+        padding: 0 20% 0 20px;
+        color: #000000;
+        font-size: 0.8rem;
+      }
+      .pri {
+        position: absolute;
+        right: 0;
+        padding-right: 10px;
+        color: #FF0000;
+      }
+      h2 {
+        width: auto;
+        padding-left: 10px;
+      }
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 50px;
+  background: $bule;
+  .hed-btn-l {
+    width: 20%;
+    height: 40px;
+    margin: 5px -5px 5px 30%;
+    background-color: #55A8B3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+  }
+  .hed-btn-r {
+    width: 20%;
+    height: 40px;
+    margin: 5px 18% 5px -3px;
+    background: #FFFFFF;
+    color: $bule;
+    border: none;
+    border-radius: 5px;
+  }
+  @at-root .local-b {
+    width: 8%;
+    max-width: 36px;
+  }
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  background-color: #F7F9FA;
+  @at-root {
+    .fot-l{
+      float: left;
+      width: 35px;
+      margin-top: 5px;
+      padding-left: 15%;
+    }
+    .fot-btn-l {
+      @include fot-btn;
+      background-image: url(home.png);
+    }
+    .fot-r {
+      float: right;
+      width: 35px;
+      margin-top: 5px;
+      padding-right: 15%;
+    }
+    .fot-btn-r {
+      @include fot-btn;
+      background-image: url(buss.png);
+    }
+    .fot {
+      display: inline;
+      padding-left: 5px;
+      font-size: 0.5rem;
+      vertical-align: top;
+    }
+    .fot-btn-c {
+      position: absolute;
+      left: 42%;
+      width: 65px;
+      margin-top: 2px;
+      height: 65px;
+      border-radius: 50%;
+      background-color: $bule;
+      background-image: url(write.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 40%;
+      border: none;
+    }
+  }
+
+}

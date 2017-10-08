@@ -1,0 +1,127 @@
+$bodycolor: #F0F4F7;
+$bule: #1CA9F4;
+$gray: #ADAEAF;
+$fontsize: 1rem !default;
+@mixin backimag {
+  background: {
+    size: 100%;
+    position: center;
+    repeat: no-repeat;
+  }
+}
+body {
+  background-color: $bodycolor;
+  margin: 0;
+  font-size: 62.5%;
+}
+header {
+  width:auto;
+  height: auto;
+  min-height: 25px;
+  background-color: $bule;
+  padding: 4% 3%;
+  font-size: $fontsize;
+  @at-root {
+    .left {
+      position: absolute;
+      left: 5%;
+    }
+    .right {
+      position: absolute;
+      right: 5%;
+    }
+    .center {
+      position: absolute;
+      left: 45%;
+    }
+  }
+}
+span {
+  color: #FFFFFF;
+}
+img {
+  display: inline;
+  width: 5%;
+  max-width: 50px;
+  height: auto;
+  vertical-align: middle;
+  margin: 10px;
+}
+.input {
+  padding-left: 5%;
+  color: #000000;
+  outline: none;
+  border: none;
+  border-left: solid 1px #F0F4F7;
+}
+.box {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: solid 1px #F0F4F7;
+  @at-root {
+    .top {
+      margin-top: 2%;
+    }
+
+    .bottom {
+      margin-bottom: 8%;
+    }
+  }
+}
+button {
+  width: 95%;
+  margin: 2% 2.5%;
+  min-height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  background: $bule;
+  box-shadow: 1px 1px 1px 2px lighten(#C7E8F7,0.2);
+}
+h1 {
+  font-size: 0.8rem;
+  margin-bottom: 100px;
+}
+.font-gray {
+  color: $gray;
+  &:hover {
+    color: #0000ff;
+  }
+}
+.link {
+  text-align: center;
+  color: $gray;
+  font-size: 0.4rem;
+  .link-font {
+    width: 15px;
+    padding: 0 3%;
+    font-weight: 100;
+    color: #000000;
+  }
+  @at-root {
+    .link-btn {
+      display: inline-block;
+      width: 50px;
+      border-radius: 50%;
+    }
+    .logo {
+      width: 20%;
+      height: auto;
+      float: left;
+      margin: 10px 6%;
+    }
+    .qq {
+      background-image: url(QQ.png);
+      @include backimag;
+    }
+    .weixin {
+      background-image: url(weixing.png);
+      @include backimag;
+    }
+    .weibo {
+      background-image: url(weibo.png);
+      @include backimag;
+    }
+  }
+}

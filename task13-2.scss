@@ -1,0 +1,128 @@
+@import "cssbase.css";
+@import "cssglobal";
+@import "layout.css";
+h1,h2,h3,h4,h5,h6,p {
+  color: #FFFFFF;
+  font-weight: normal;
+}
+header {
+  width: 100%;
+  height: $hedh;
+  background-color: $bule;
+  .list {
+    top: 0;
+    width: 25px;
+  }
+  .off {
+    top: 0;
+    right: 0;
+    width: 25px;
+  }
+  h2 {
+    padding: 5px 0;
+  }
+}
+body {
+  background-color: $bule;
+  height: 500px;
+  padding-bottom: 100px;
+  h3 {
+    padding: 2px 0;
+    color: #000000;
+  }
+  .bak-lb {
+    top: 40px;
+    width: 100%;
+    z-index:2;
+    background-color: $lightbule;
+  }
+  .play {
+    top: 43px;
+    right: 0;
+    height: 20px;
+  }
+  .audio {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    z-index: 3;
+    opacity: 0.05;
+    width: 1px;
+  }
+  .t {
+    top: 35px;
+    width: 0;
+    height: 0;
+    border: 5px solid #000;
+    border-color: $lightbule transparent transparent transparent;
+  }
+  .pof1 {
+    width: 100%;
+    top: 72px;
+    background-color: $bule;
+  }
+  .box3 {
+    top: 100px;
+    margin: 20px 6%;
+    width: 20%;
+    height: 13%;
+    float: left;
+  }
+  @at-root {
+    .element {
+      display: none;
+      position: relative;
+      top: 10px;
+      right: 5px;
+      width: 120%;
+      height: 50%;
+    }
+    .c1,.c2,.c3,.c4 {
+      display: inline-block;
+      width: 20%;
+      height: 50%;
+      background-size: 100%;
+      background-position: center;
+    }
+    .c1 {
+      background-image: url(1.png);
+    }
+    .c2 {
+      background-image: url(2.png);
+    }
+    .c3 {
+      background-image: url(3.png);
+    }
+    .c4 {
+      background-image: url(4.png);
+    }
+    .box3-t{
+      width: 100%;
+      height: 25px;
+      padding-top: 20px;
+      background-color: $div3t;
+    }
+    .box3-b {
+      width: 100%;
+      padding-top: 10px;
+      height: 10px;
+      background-color: $div3b;
+    }
+  }
+}
+footer {
+  width: 100%;
+  height: $foth;
+  background-color: $bule;
+  @at-root .fot-btn {
+    width: 80%;
+    height: 40px;
+    margin: 20px 10%;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    background-color: $ora;
+  }
+}
+
+
